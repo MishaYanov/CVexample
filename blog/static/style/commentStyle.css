@@ -1,0 +1,31 @@
+.comment_page{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15%;
+}
+h1{
+    font-weight: 700;
+
+}
+.save{
+    max-width: 200px;
+    max-height: 24px;
+    color: #808080;
+    margin-left: 5%;
+}
+.commentclass{
+    margin-left: 2%;
+    background-color:lightblue;
+    border: 1px solid black;
+}
+.editable{
+    background-color:lightblue;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.commentForm{
+    font-size: 24px;
+    justify-content: baseline
+}

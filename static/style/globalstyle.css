@@ -1,0 +1,45 @@
+
+/* ##################
+color scheme main: #043442
+             shade: #E5E7E7
+font sizes: 14px, 16px, 18px, 20px, 22px, 24px, 28px, 32px, 36px, 48px, 64px
+#####################
+ */
+
+ body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+ *{
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  

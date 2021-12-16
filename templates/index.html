@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+{% extends 'base.html'%} {% block content %}
+<div class="container">
+  <div class="top_section" id="top">
+    <div class="image">
+      <img class="img" src="../static/images/filler.jpg" alt="My-Face" />
+    </div>
+    <div class="about">
+      <div class="text_box">
+        <h1 class="main_h1">Michael Yanovsky</h1>
+        <p class="border_box">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+          perspiciatis quasi suscipit sed natus hic nobis accusantium totam quis
+          cumque numquam dolorum, tenetur amet praesentium corrupti animi, nisi
+          dolore quaerat.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="main_section">
+    <div class="main_left">
+      <div class="contacts">
+        <h1 class="section_h1">Contact Me:</h1>
+        <ul class="list text_box">
+          <li class="ctc">Phone Number: +972 54 646 2213</li>
+          <li class="ctc">email: Misha.y1404@gmail.com</li>
+          <li class="ctc">Adress: Nesher, Ha Oren, 13</li>
+          <li class="ctc">
+            Facebook:
+            <p style="font-size: 16px">
+              https://www.facebook.com/misha.habanay
+            </p>
+          </li>
+          <li class="ctc">
+            linked:
+            <p style="font-size: 16px">
+              https://www.linkedin.com/in/michael-yanovsky-151752182/
+            </p>
+          </li>
+          <li class="ctc"></li>
+        </ul>
+      </div>
+      <div class="skills">
+        <h1 class="section_h1">Skills</h1>
+        <div class="text_box">
+          
+            
+          <ul class="list">
+            <li class="ctc">
+               <div class="row">
+                  <div class="columna">Python</div>
+                  <div class="columnb"><progress max="100" value="70"></progress> &nbsp;70%</div>
+              </li>
+              <li class="ctc">
+                <div class="row">
+                   <div class="columna">Web</div>
+                   <div class="columnb"><progress max="100" value="60"></progress> &nbsp;60%</div>
+               </li><li class="ctc">
+                <div class="row">
+                   <div class="columna">Java</div>
+                   <div class="columnb"><progress max="100" value="50"></progress> &nbsp;50%</div>
+               </li><li class="ctc">
+                <div class="row">
+                   <div class="columna">UX/UI</div>
+                   <div class="columnb"><progress max="100" value="40"></progress> &nbsp;40%</div>
+               </li>
+                      <hr>
+            <h3 class="sub_hdr">Sub Skills</h3>
+            <ul class="list">
+              <div>
+                <h4>Languages:</h4>
+                <ul class="list inner" style="font-size:16px;">
+                  <li>Englihs: Full professional proficiency</li>
+                  <li>Hebrew: Full professional proficiency</li>
+                  <li>Russian: professional working proficiency</li>
+                </ul>
+              </div>
+            </ul>
+            <ul class="list">
+                <li><strong><u>Python:</u></strong>
+                    <ol class="list inner">
+                        <li>
+                            <strong>Web Frameworks:</strong><br>&nbsp; flask<br>&nbsp; Django
+                        </li>
+                        <li>
+                           Kivy
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ol>
+                <li>
+                  <strong><u>Web:</u></strong>
+                    <ol class="list inner">
+                        <li>
+                           <strong> Simple stuff:</strong>
+                            <br>&nbsp; HTML 
+                            <br>&nbsp; CSS 
+                            <br>&nbsp; JavaScript
+                        </li>
+                        <li>
+                            <strong> Advanced Frameworks:</strong> 
+                            <br>&nbsp; Angular
+                            <br>&nbsp; React
+                        </li>
+                    </ol>
+                </li>
+
+                </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main_right">
+      <div class="education">
+        <h1 class="section_h1">Education</h1>
+            <div class="text_box">
+                <ul class="list">
+                    <li class="ctc"><div class="studyhdr"> University of the People</div>
+                    <p class="studysubheader">Bsc. Compouter Science</p>
+                  <p class="studyinfo">start time:Jan 2021 end time description </p></li>
+                  <li class="ctc"><div class="studyhdr">John Bryce:Full Stack web development</div>
+                    <p class="studysubheader"></p>
+                  <p class="studyinfo">start time: Oct 2021 end time description </p></li>
+                  <li class="ctc"><div class="studyhdr">John Bryce:UX/UI</div>
+                    <p class="studysubheader"></p>
+                  <p class="studyinfo">start time: Nov 2021 end time description </p></li>
+                    <li class="ctc addition">*I did several courses on Udemy you can see them <a href="{% url 'certificates'%}">here</a></li>
+                    <li class="ctc"><div class="studyhdr">Nesher High School</div>
+                      <p class="studysubheader">Major physics</p>
+                    <p class="studyinfo">start time end time description </p></li>
+                </ul>
+            </div>
+      </div>
+      <div class="experience">
+        <h1 class="section_h1">experience</h1>
+        <div class="text_box">
+            <ul class="list">
+              <li class="ctc"><div class="studyhdr">FireFighter</div>
+                <p class="studysubheader">from:Apr. 2018 to:Oct 2021</p>
+                <p class="studyinfo">description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, exercitationem? Error odit eos praesentium, at possimus consequuntur, totam nihil recusandae culpa asperiores quod quisquam doloribus odio veritatis vel aliquid maxime? </p></li>
+                <li class="ctc">A</li>
+                <li class="ctc">A</li>
+                <li class="ctc">A</li>
+
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

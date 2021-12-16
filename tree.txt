@@ -1,0 +1,51 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 8605-7D88
+C:.
+|   db.sqlite3
+|   manage.py
+|   tree.doc
+|   tree.txt
+|   
++---blog
+|   |   admin.py
+|   |   apps.py
+|   |   forms.py
+|   |   models.py
+|   |   tests.py
+|   |   urls.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|   +---migrations
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           __init__.cpython-38.pyc
+|   |           
+|   +---static
+|   |   \---style
+|   |           style.css
+|   |           
+|   +---templates
+|   \---__pycache__
+|           admin.cpython-38.pyc
+|           apps.cpython-38.pyc
+|           models.cpython-38.pyc
+|           __init__.cpython-38.pyc
+|           
++---myCV
+|   |   asgi.py
+|   |   settings.py
+|   |   urls.py
+|   |   wsgi.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           settings.cpython-38.pyc
+|           urls.cpython-38.pyc
+|           wsgi.cpython-38.pyc
+|           __init__.cpython-38.pyc
+|           
++---static
+|   \---style
+\---templates

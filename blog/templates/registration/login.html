@@ -1,0 +1,16 @@
+{% extends 'blog_base.html' %} {% block content %}
+<div class="">
+    <h2>Please Login</h2>
+    <p>(super user required)</p>
+    {% if form.errors %}
+        <p>No match try again</p>
+    {%else%}
+        <form action="{% url 'login' %}" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="login">
+            <input type="hidden" name="next" value="{{next}}">
+        </form>
+    {%endif%}
+    {% endblock %}
+</div>

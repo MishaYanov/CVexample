@@ -1,0 +1,28 @@
+
+{% extends 'blog_base.html' %}
+{%load static%}
+ {% block content %}
+<div class="post_page">
+  {% for post in post_list %}
+  <div >
+      <a href="{%url 'blog:post_detail' pk=post.pk%}"><h2>{{post.title}}</h2></a>
+      <hr>
+      <div>
+      <div >
+        <p class="post_page__tag"><strong>Tags:</strong> {{post.tags}}</p>
+      </div>
+        <div>
+          <a href="{{post.link}}"><img style="width: 32px; height:32px;" src="{% static 'images/github-logo.svg' %}" alt=""></a>
+        </div>
+        <div>
+          <p class="post_page__decribe">About this Project: {{post.short_description}}</p>
+        </div>
+      </div>
+        <p class="post_page__published">Published on: {{post.published_date|date:"d/m/Y"}}</p>
+        <a href="{% url 'blog:post_detail' pk=post.pk %}">Comments: {{post.approve_comment.count}} </a>
+        <hr class="post_page_endline">
+        <hr>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

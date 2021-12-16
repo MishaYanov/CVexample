@@ -1,0 +1,177 @@
+/* */
+/* ALL BODY STYLE PARTS */
+:root {
+  --main_color: #048bc2;
+  --shade_color: #212834;
+  --main_font: 14px;
+  --color_main: #202020;
+  --color_shade: #f5f5f5;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: var(--color_main);
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* ########################## */
+/* navigation bar style */
+/* ########################## */
+.navbar {
+  background-color: var(--shade_color);
+  width: 100%;
+}
+nav {
+  width: 100%;  
+  margin: 0;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.nav-link{
+display: flex;
+text-align: center;
+color: var(--color_shade);
+}
+a{
+  color: var(--shade_color);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--main_color);
+  fill: var(--main_color);
+}
+.nav-item{
+  padding-left: 20px;
+}
+.search{
+  margin-left: 20px;
+  height: 36px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.icon{
+  width: 36px;
+  height: 36px;
+}
+@media only screen and (max-width:800px){
+.icon{
+  width: 32px;
+  height: 32px;
+}
+.search{
+  height: 32px;
+  width: 200px;
+  font-size: 12px;
+}
+}
+@media only screen and (max-width:700px){
+  .icon{
+    width: 24px;
+    height: 24px;
+
+  }
+  .search{
+    height: 24px;
+    width: 100px;
+    font-size: 8px;
+    padding-left: 16px;
+  }
+  .nav-item{
+    margin-left: 16px;
+  }
+  @media only screen and (max-width:400px){
+    .icon{
+      margin-top: 5px;
+      width: 16px;
+      height: 16px;
+  
+    }
+    .search{
+      height: 16px;
+      width: 80px;
+      align-items: flex-end;
+      margin-left: 3px;
+
+    }
+    .nav-item{
+      padding-left: 5px;
+    }
+  }
+}
+.user_bar{
+  background-color: var(--shade_color);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.user-item{
+  color: goldenrod;
+  padding-left: 2%;
+}
+/* ################### */
+/* #### MainPage ##### */
+/* ################### */
+.post_page{
+    
+}
+.post_page__tag{
+  font-size: 18px;
+}
+.post_page__published{
+  font-size: 18px;
+}
+.post_page_endline{
+  border: 3px solid;
+}
+.post_page__decribe{
+font-size: 22px;
+}
+/* ################## */
+/* ### Detail Page### */
+/* ################## */
+.detail_page{
+}
+.details_page__title{
+  font-size: 32px;
+}
+.details_page__tags{
+  font-size: 16px;
+}
+.details_page__published{
+  font-size: 16px;
+}
+.details_page__content{
+  font-size: 20px;
+}
+.details_page__link{
+
+}
+.details_page__hr{
+  border: 3px solid;
+}
